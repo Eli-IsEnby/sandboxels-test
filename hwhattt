@@ -1,0 +1,33 @@
+elements.mayo = {
+    color: "#ede9da",
+    behavior: behaviors.LIQUID,
+    category: "food",
+    viscosity: 200,
+    state: "liquid",
+    density: 900,
+    tempLow: -10,
+    stateLow: frozen_mayo
+};
+elements.spice = {
+    color: "#8d9e54",
+    behavior: behaviors.POWDER,
+    category: "food",
+    state: "liquid",
+    density: 900,
+};
+elements.frozen_mayo = {
+    color: "#d7d9cc",
+    behavior: behaviors.SOLID,
+    category: "food",
+    state: "solid",
+    tempHigh: -9,
+    stateHigh: mayo
+};
+elements.mustard = {
+    color: "#cfb12d"
+    behavior: behaviors.LIQUID,
+    category: "food",
+    viscosity: 200,
+    density: 830,
+    state: "liquid",
+};
